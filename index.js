@@ -3,6 +3,7 @@ import _ from "lodash";
 
 const arr = [23, 1, 3, 65, 3, 2, 34, 4];
 
+console.log(_.sortBy(arr));
 const bubbleSort = (arr) => {
   let swapped;
 
